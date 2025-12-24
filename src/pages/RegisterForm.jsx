@@ -339,7 +339,18 @@ if (totalFee === 0) {
             <div style={styles.check}>✓</div>
             <h1 style={styles.title}>Registration Successful</h1>
             <p style={styles.subtitle}>Your team has been registered for Arcane 2026.</p>
-            <p style={{ color: "#9ca3af" }}>Further details will be shared via WhatsApp.</p>
+            <p style={{ color: "#9ca3af" }}>
+  Join the below WhatsApp group for further updates.{" "}
+</p>
+  <a
+    href="https://chat.whatsapp.com/HMXaC18rrHRK3yVWa2mGoW"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#22c55e", fontWeight: 900, marginTop:50 }}
+  >
+    Join WhatsApp Group
+  </a>
+
           </div>
         </div>
       </div>
