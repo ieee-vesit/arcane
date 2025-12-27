@@ -11,6 +11,7 @@ export function Hero() {
     { id: "timeline", label: "Timeline" },
     { id: "sponsors", label: "Sponsors" },
     { id: "register", label: "Register" },
+    { id: "faq", label: "FAQs" },
   ];
 
   return (
@@ -62,10 +63,10 @@ export function Hero() {
           </button>
 
           <div className="socials hidden md:flex items-center gap-3">
-            <a href="https://www.linkedin.com/company/ieeevesit/" className="social-icon w-10 h-10 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg flex items-center justify-center hover:bg-white/10 hover:border-cyan-500/50 transition-all">
+            <a href="https://www.linkedin.com/company/ieeevesit/" className="social-icon w-10 h-10 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg flex items-center justify-center hover:bg-white/10 hover:border-cyan-500/50 transition-all" target='_blank'>
               <Linkedin size={18} className="text-gray-300" />
             </a>
-            <a href="https://www.instagram.com/ieee_vesit/" className="social-icon w-10 h-10 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg flex items-center justify-center hover:bg-white/10 hover:border-cyan-500/50 transition-all">
+            <a href="https://www.instagram.com/ieee_vesit/" className="social-icon w-10 h-10 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg flex items-center justify-center hover:bg-white/10 hover:border-cyan-500/50 transition-all" target='_blank'>
               <Instagram size={18} className="text-gray-300" />
             </a>
           </div>

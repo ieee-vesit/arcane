@@ -18,7 +18,7 @@ export function About() {
     {
       icon: Layers,
       value: "Domains",
-      label: "3 Domains, 6 PS",
+      label: "3 Domains, 9 PS",
       gradient: "from-purple-400 to-pink-500",
     },
     {
@@ -172,7 +172,7 @@ export function About() {
               Cash prizes and exclusive swags
             </p>
 
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:border-white/20 transition-all duration-300 hover:scale-105">
                 <div className="text-3xl mb-3 transform group-hover:scale-110 transition-transform">🥇</div>
                 <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent mb-2 tracking-wide">
@@ -189,6 +189,16 @@ export function About() {
                 </div>
                 <div className="text-base font-semibold text-gray-300 tracking-wider uppercase">
                   Second Prize
+                </div>
+              </div>
+
+              <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:border-white/20 transition-all duration-300 hover:scale-105">
+                <div className="text-3xl mb-3 transform group-hover:scale-110 transition-transform">🎁</div>
+                <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gray-300 to-gray-400 bg-clip-text text-transparent mb-2 tracking-wide">
+                  Swags
+                </div>
+                <div className="text-base font-semibold text-gray-300 tracking-wider uppercase">
+                  Best User Interface
                 </div>
               </div>
             </div>

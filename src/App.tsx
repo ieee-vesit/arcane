@@ -8,6 +8,7 @@ import { Registration } from "./components/Registration";
 import Footer from "./components/Footer";
 
 import RegisterForm from "./pages/RegisterForm";
+import { FAQ } from "./components/faq";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Timeline />
       <Sponsors />
       <Registration />
+      <FAQ/>
       <Footer />
     </div>
   );
