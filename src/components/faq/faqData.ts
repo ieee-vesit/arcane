@@ -122,7 +122,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Who do I contact for help during the event?",
     answer: [
-      "For any queries during the hackathon, participants can reach out to the student coordinators.",
+      "For any queries during the hackathon, participants can reach out to the PR Heads (contacts mentioned).",
       "Support will be available through the designated WhatsApp help groups."
     ],
     contact: "Udayan Kundu: +91 91363 44051 | Unnati Singh: +91 80971 75130",

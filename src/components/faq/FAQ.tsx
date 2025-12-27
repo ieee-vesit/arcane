@@ -42,7 +42,7 @@ export function FAQ(): JSX.Element {
                     {item.contact && (
                       <div className="mt-4 p-3 bg-blue-600/20 rounded border border-blue-500/30">
                         <p className="text-blue-200 text-sm">
-                          <strong>Contact:</strong> {item.contact}
+                          {item.contact}
                         </p>
                       </div>
                     )}
