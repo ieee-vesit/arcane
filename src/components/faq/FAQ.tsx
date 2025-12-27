@@ -5,7 +5,7 @@ import { Linkedin, Instagram, ArrowRight, Sparkles, Menu, X } from 'lucide-react
 
 export function FAQ(): JSX.Element {
   return (
-    <section id="faq" className="py-10 px-8 lg:px-20 bg-gradient-to-b from-purple-900/20 to-blue-900/20">
+    <section id="faq" className="py-10 px-8 lg:px-20 ">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <div className="inline-flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 backdrop-blur-sm border border-cyan-500/20 rounded-full mb-6">
