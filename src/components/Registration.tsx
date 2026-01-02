@@ -100,10 +100,10 @@ export function Registration() {
               {/* ===================================================== */}
 
               <h3 className="text-2xl sm:text-3xl text-white mb-6 md:mb-8 font-semibold">
-                Registration Form
+                Registrations closed
               </h3>
 
-              <a
+              {/* <a
                 href="/register"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export function Registration() {
                 <span className="text-cyan-400 font-semibold">
                   January 2nd, 2026
                 </span>
-              </p>
+              </p> */}
             </div>
           </div>
 
